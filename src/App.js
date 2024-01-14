@@ -1,12 +1,11 @@
 import './App.css';
-
+import NavBar from './components/navBar';
+import DatingCards from './components/DatingCards';
 function App() {
   return (
     <div className='app'>
-       <h1 className="text-3xl underline">
-        Hello world!
-      </h1>
-      <h1 className='text-xl'> Hello </h1>
+       <NavBar/>
+       <DatingCards/>
     </div>
   );
 }
